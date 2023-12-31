@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <div class="input-group mb-3">
+        <input type="text" [(ngModel)]="postText" class="form-control" placeholder="Say Something To World" aria-label="New Post">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" (click)="onCreatePost()">Post</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <div class="card" *ngFor="let tweet of tweets" style="margin-top: 20px">
+        <h5 class="card-header"><a style="cursor: pointer;" (click)="onViewUser(tweet.user)"> @{{ tweet.user }}</a></h5>
+        <div class="card-body">
+          <h5 class="card-title">{{ tweet.text }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

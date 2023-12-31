@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    /* font-family: 'Share Tech', sans-serif; */
+    /* font-size: 68px;
+    color: white; */
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* margin: 0;
+    width: 100vw;
+    height: 100vh; */
+    /* text-shadow: 5px 5px 7px #0000008c; */
+    /* background-color: #343a40; */
+    background-image: url("new-background.jpg");
+    font-family: 'Helvetica', 'Arial', sans-serif;
+
+
+}
